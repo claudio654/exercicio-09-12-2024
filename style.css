@@ -1,0 +1,131 @@
+.elemento-01{
+    margin-left: 1px;
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+
+    }
+.lista{
+    height: 250px;
+    width: 250px;
+    background-color: blueviolet;
+    }
+.lista ul li a {
+    text-decoration: none;
+    background-color: aqua;
+    }
+
+
+
+.lista2 {
+    background-color: aquamarine;
+    height: 250px;
+    width: 250px;
+    }
+.lista2 ul {
+    text-decoration: none;
+    list-style-type: none;
+    }
+
+/* blocos de seletores que estiliza o conteiner lista 3 */
+.lista3 {                         
+    background-color: black;    /* define a cor de fundo do container */ 
+    width: 250px;                 /* define a largura do conteiner */
+    height: 250px;                /* define a altura do conteiner */
+    }
+.lista3 ul {                       /* bloco de seletores que estiliza o elemento <ul> */
+        list-style-type: none; 
+    }
+
+.lista3 ul li a{                   /* bloco de seletores que estiliza o texto do link que é o elemento <a> */
+    text-decoration: none;
+    color: aliceblue;
+    }
+
+.lista4{
+    background-color: rgb(72, 240, 6);
+    width: 250px;
+    height: 250px;
+    }
+.lista4 ul{
+    list-style-type: none;
+    }
+.lista4 ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    }
+.lista4 ul li a:hover {
+    background-color: blue;
+    }
+
+ /* bloco de seletores da lista 5 */
+.lista5{
+    background-color: rgb(9, 185, 185);   /* cor de fundo do conteiner */
+    height: 250px;                          /* largura do conteiner*/                    
+    width:  250px;                          /* altura do container */
+    }
+
+.lista5 ul{                                 /* seletor do elemento <ul> */
+ list-style-type: none;                     /* retirar o marcador do elemento <ul> */
+    }
+ /* seletor que estiliza o elemento <a> */
+.lista5 ul li a{                           
+    text-decoration:  none;
+    color: rgb(248, 248, 248);
+    }
+
+/* 9 bloco de seletores que estiliza o elemento lista6 */
+    .lista6 {                               /* bloco de seletores o conteiner lista6 */
+    background-color: rgb(5, 128, 228);   /* cor de fundo do conteiner */
+    height: 250px;                          /* largura do conteiner */
+    width: 250px;                           /* altura do conteiner  */    
+    }
+    .lista6 ul{
+        list-style-type: none;
+    }
+    .lista6 ul li a{
+        text-decoration: none;
+        color: antiquewhite;
+    }
+    .lista6:hover {
+        background-color: brown;
+    }
+    /* bloco de seletores do elemento lista7 */
+    .lista7 {
+        background-color: rgb(62, 68, 68);
+        height: 250px;
+        width: 250px;
+    }
+
+    .lista7 ul{
+        list-style-type: none;
+    }
+
+    .lista7 ul li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .lista8 {
+        background-color: brown;
+        height: 250px;
+        width: 250px;    
+    }
+
+    .lista8 ul {
+        list-style-type: none;
+    }
+
+    .lista8 ul li a{
+        text-decoration: none;
+        color:white;
+    }
+
+    .lista8:hover{
+        transition-duration: 0.5s;
+        background-color: yellow;
+        
+    }
+    .lista8 ul li a:hover{
+        color: brown;
+    }
